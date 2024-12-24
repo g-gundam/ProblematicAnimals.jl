@@ -60,4 +60,6 @@ sound(pig) # "oink"
 why(pig) # The `sound(pig::Pig)` function is invisible to the why(a) function.
 ```
 
+![error](https://github.com/g-gundam/ProblematicAnimals.jl/blob/main/pig.png?raw=true)
+
 ## How can I get `why(pig)` to work?
