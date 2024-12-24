@@ -2,5 +2,8 @@ using ProblematicAnimals
 using Test
 
 @testset "ProblematicAnimals.jl" begin
-    # Write your tests here.
+    cat = Cat()
+    dog = Dog()
+    @test sound(cat) == "meow"
+    @test sound(dog) == "bark"
 end
