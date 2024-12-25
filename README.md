@@ -64,7 +64,7 @@ why(pig) # The `sound(pig::Pig)` function is invisible to the why(a) function.
 
 ## How can I get `why(pig)` to work?
 
-- The answer was so **[simple](https://discourse.julialang.org/t/pluto-jl-how-do-i-dispatch-to-a-subtype-created-in-a-notebook/124162/2).
+- The answer was so **[simple](https://discourse.julialang.org/t/pluto-jl-how-do-i-dispatch-to-a-subtype-created-in-a-notebook/124162/2)**.
 
 ```julia
 ProblematicAnimals.sound(pig::Pig) = "oink"
